@@ -1,0 +1,36 @@
+body{
+   min-height: 100vh;
+   font-family: monospace;
+   background-image: 
+   linear-gradient( to bottom right, #EFD7F4, #c5c7f1);
+   margin: 0;
+}
+ .container{
+    background-color: #E9E0F7;
+    width: 1000px;
+    max-width:  70%;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+   .filter{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 32% 32%;
+    column-gap: 1%;
+     row-gap: 10px;
+}
+.submit{
+   background-color: #AA82ED;
+   width: 40%;
+   padding: 5px;
+   outline: soild; 
+   border-radius: 25px;
+   -webkit-transition-duration: 0.4s;    transition-duration: 0.4s;}
+.submit:hover{  
+  background-color:#B9D3EE; 
+  color: while;
+
+}
+
+
+     

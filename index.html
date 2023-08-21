@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="filter" onsubmit="takeData()">
+            <label for="phone">Số điện thoại:</label>
+            <input type="phone" id="phone" placeholder="phone">
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" placeholder="abcd@gmail.com">
+            <br>
+            <label for="city">Tỉnh/Thành phố:</label>
+            <select id="city">
+                <!-- <option value="Hà Nội">Hà Nội</option>
+                <option value="Hà Nam">Hà Nam</option>
+                <option value="Ninh Bình">Ninh Bình</option> -->
+            </select>
+            <br>
+            <label for="district">Quận/Huyện:</label>
+            <select id="district">
+                <!--<option value="Nam Từ Liêm">Nam Từ Liêm</option>
+                    <option value="Thanh Liêm">Thanh Liêm</option>
+                    <option value="Quan Nho">Quan Nho</option> -->
+            </select>
+            <br>
+            <input class="submit" type="submit" value="Submit">
+            <div id="show"></div>
+            <br>
+                 <div></div>
+          
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="assets/script.js"></script>
+</html>
